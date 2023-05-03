@@ -6,6 +6,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
+//(scanBasePackages = {"com.example.backend.service"})
 @OpenAPIDefinition(info = @Info(title = "CRUD REST API", version = "1.0", description = "CRUD REST API"))
 public class LaboratorCrudApplication {
 
